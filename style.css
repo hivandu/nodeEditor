@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%!important;
+    background: #000;
+
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+p, span{
+    font-size: 0.65rem;
+}
+
+.section {
+    display: none;
+    max-width: 640px;
+    height: 100%;
+    line-height: 1.35em;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    background: #666;
+}
+
+.curState {
+    display: block;
+}
+
+.section h2 {
+    padding: 33% 0 0 0;
+    font-size: 1em;
+}
+
+.section .btn {
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+    width: 100%;
+    text-align: center;
+}
+
+.section .btn span{
+    display: inline-block;
+    line-height: 2.5em;
+    padding: 1% 2%;
+    margin-top: 1%;
+    background: #333;
+    cursor: pointer;
+}
+
+.section .btn span:active{
+    background: #444;
+}
